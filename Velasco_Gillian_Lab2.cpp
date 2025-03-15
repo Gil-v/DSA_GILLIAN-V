@@ -11,7 +11,7 @@ Node* createNode(string song, string artist);
 
 void traverse(Node* head) {
     if (head == NULL) {
-        cout << "The list is empty." << endl;
+        cout << "The list is empty." << endl; //comment
         return;
     }
 
